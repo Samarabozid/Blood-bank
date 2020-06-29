@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prevention">Prevention</string>
+    <string name="bloodtype">Select blood type</string>
+    <string name="city">Select city </string>
+    <string name="governrate">Select governrate</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_category">Category</string>
+    <string name="wait">Please Wait Until Finishing This Proccess</string>
+    <string name="cancel">Cancel</string>
+    <string name="GPSAlertDialogTitle">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage">GPSAlertDialogMessage</string>
+    <string name="action_settings">action_settings</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+</resources>

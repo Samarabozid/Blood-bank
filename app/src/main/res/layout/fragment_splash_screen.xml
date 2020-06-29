@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.splashCycle.SplashScreenFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_minus16sdp"
+                android:layout_marginTop="@dimen/_minus16sdp"
+                android:layout_marginEnd="@dimen/_minus16sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b1" />
+
+            <ImageView
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b1"
+                android:src="@drawable/bloodicon" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/b2"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_minus16sdp"
+                android:layout_marginEnd="@dimen/_minus16sdp"
+                android:layout_marginBottom="@dimen/_minus16sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b2" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
